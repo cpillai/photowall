@@ -4,4 +4,4 @@ import App from './Components/App';
 import './style/stylesheet.css';
 import {BrowserRouter} from 'react-router-dom'
 
-ReactDOM.render(<BrowserRouter><App/></BrowserRouter>,document.getElementById("root"));
+ReactDOM.render(<React.StrictMode><BrowserRouter><App/></BrowserRouter></React.StrictMode>,document.getElementById("root"));
