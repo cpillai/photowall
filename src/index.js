@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Main from './Components/Main';
+import App from './Components/App';
 import './style/stylesheet.css';
 import {BrowserRouter} from 'react-router-dom'
 
-ReactDOM.render(<BrowserRouter><Main/></BrowserRouter>,document.getElementById("root"));
+ReactDOM.render(<BrowserRouter><App/></BrowserRouter>,document.getElementById("root"));
